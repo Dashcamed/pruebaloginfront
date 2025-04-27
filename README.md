@@ -3,7 +3,7 @@
 Generar un archivo .env con la siguiente estructura y agregar la URL del backend.
 
 ```
-API_URL=
+NEXT_PUBLIC_API_URL=
 ```
 
 hacer el npm install para instalar las dependencias. Luego npm run dev.
@@ -16,6 +16,6 @@ hacer el npm install para instalar las dependencias. Luego npm run dev.
 >
 > ejemplo:
 >
-> `<form onSubmit={handleSubmit(onSubmit)} action={`${API_URL}/api/session/login`} method="post">`
+> `<form onSubmit={handleSubmit(onSubmit)} action={`${API_URL}/api/session/login `} method="post">`
 >
 > Cambiar despues de `${API_URL}` a las rutas predeterminadas por su backend.
