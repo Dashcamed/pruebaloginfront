@@ -21,7 +21,6 @@ export default function Page() {
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),
             });
-            console.log(data)
             if (res.ok) {
                 router.push('/user')
             }
